@@ -1,16 +1,10 @@
-```
+<p align="center"><img src="https://github.com/iqiyi/xHook/blob/master/docs/xhooklogo.png?raw=true" alt="xhook" width="50%"></p>
 
-              oooo                            oooo        
-              `888                            `888        
-  oooo    ooo  888 .oo.    .ooooo.   .ooooo.   888  oooo  
-   `88b..8P'   888P"Y88b  d88' `88b d88' `88b  888 .8P'   
-     Y888'     888   888  888   888 888   888  888888.    
-   .o8"'88b    888   888  888   888 888   888  888 `88b.  
-  o88'   888o o888o o888o `Y8bod8P' `Y8bod8P' o888o o888o 
-
-```
 
 [README 中文版](README.zh-CN.md)
+
+[Android PLT hook 概述 中文版](docs/overview/android_plt_hook_overview.zh-CN.md)
+
 
 # Overview
 
@@ -173,15 +167,19 @@ xhook_register(".*some_vendor.*/libvictim\\.so$", "bad_func", my_nice_func, NULL
 xhook_refresh(1);
 ```
 
+
 # License
 
 Copyright (c) 2018-present, iQIYI, Inc. All rights reserved.
 
 Most source code in xhook are MIT licensed. Some other source code have BSD-style licenses.
 
-Please refer to the LICENSE file for detailed information.
+Please refer to the [LICENSE](LICENSE) file for detailed information.
+
+xhook documentation is [Creative Commons licensed](LICENSE-docs).
 
 
-# Contact
+# Contacts
 
-github: https://github.com/iqiyi/xhook
+github: https://github.com/iqiyi/xhook  
+mail: caikelun#qiyi.com (pls replace `#` with `@`)

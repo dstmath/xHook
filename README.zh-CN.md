@@ -1,16 +1,10 @@
-```
+<p align="center"><img src="https://github.com/iqiyi/xHook/blob/master/docs/xhooklogo.png?raw=true" alt="xhook" width="50%"></p>
 
-              oooo                            oooo        
-              `888                            `888        
-  oooo    ooo  888 .oo.    .ooooo.   .ooooo.   888  oooo  
-   `88b..8P'   888P"Y88b  d88' `88b d88' `88b  888 .8P'   
-     Y888'     888   888  888   888 888   888  888888.    
-   .o8"'88b    888   888  888   888 888   888  888 `88b.  
-  o88'   888o o888o o888o `Y8bod8P' `Y8bod8P' o888o o888o 
-
-```
 
 [README English Version](README.md)
+
+[Android PLT hook 概述 中文版](docs/overview/android_plt_hook_overview.zh-CN.md)
+
 
 # 概述
 
@@ -173,15 +167,19 @@ xhook_register(".*some_vendor.*/libvictim\\.so$", "bad_func", my_nice_func, NULL
 xhook_refresh(1);
 ```
 
+
 # 许可证
 
 Copyright (c) 2018-present, 爱奇艺, Inc. All rights reserved.
 
 xhook 中大多数的源码使用 MIT 许可证，另外的一些源码使用 BSD 样式的许可证。
 
-详细信息请查看 LICENSE 文件。
+详细信息请查看 [LICENSE](LICENSE) 文件。
+
+xhook 的文档使用 [Creative Commons 许可证](LICENSE-docs)。
 
 
 # 联系方式
 
-github: https://github.com/iqiyi/xhook
+github: https://github.com/iqiyi/xhook  
+mail: caikelun#qiyi.com （请用 `@` 替换 `#`）
